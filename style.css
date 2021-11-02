@@ -1,0 +1,434 @@
+@media (min-width: 300px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .TextoDArriba {
+    font-family: days -apple-system, BlinkMacSystemF;
+    font-variant: small-caps;
+    font-style: oblique;
+
+    font-size: large;
+    text-decoration: none;
+    /* height: min-content; */
+    margin-left: 80px;
+    position: absolute;
+  }
+
+  body {
+    background: linear-gradient(
+      90deg,
+      rgb(136, 56, 56),
+      rgba(81, 207, 69, 0.527)
+    );
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+    /* background-repeat: no-repeat; */
+  }
+
+  header {
+    display: flex;
+    /* flex-direction: row; */
+    width: 350px;
+    height: 80px;
+    background-color: transparent;
+    /* border: black solid 4px; */
+    overflow: hidden;
+    justify-content: flex-start;
+    background-image: url(header3.jpg);
+    /* border-radius: 80%;  */
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+
+  .CajaImagenesA {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    justify-content: flex-end;
+    /* margin-top: 300px; */
+    /* border: black solid 4px; */
+    background-color: transparent;
+    margin-top: 30px;
+  }
+
+  .Elemento3 {
+    /* border: black solid 4px; */
+    background-color: transparent;
+    margin-right: 0px;
+
+    /* width: 100%; */
+  }
+
+  /* .itemMenu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+  font-style:normal; 
+  }
+  .itemMenu2 {
+  } */
+  .textito {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: rgb(78, 71, 71);
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .cajaMedio1 {
+    /* border: solid black 2px; */
+    display: flex;
+    /* justify-content: center; */
+    background-color: transparent;
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  .cajaMedio2 {
+    /* border: solid black 2px; */
+    display: flex;
+    background-color: transparent;
+    /* justify-content: space-between; */
+    width: 400px;
+    height: 50px;
+    /* justify-content: space-around; */
+  }
+
+  .cajaMedio3 {
+    /* border: solid black 2px; */
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: transparent;
+    width: 400px;
+    height: 50px;
+  }
+
+  .foto1 {
+    width: 17%;
+    height: 47%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+
+  .foto2 {
+    width: 17%;
+    height: 110%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 120px;
+    position: relative;
+  }
+
+  .foto3 {
+    width: 17%;
+    height: 110%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+
+  .texto1 {
+    text-decoration-style: dotted;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    height: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .texto2 {
+    text-decoration-style: dotted;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-style: oblique;
+    /* justify-content: start; */
+    height: 10px;
+    margin-left: 10px;
+  }
+
+  .texto3 {
+    text-decoration-style: dotted;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-style: oblique;
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+
+  .bajarT2 {
+    display: flex;
+    height: 50px;
+    /* border: solid black 2px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .bajarT1 {
+    display: flex;
+    height: 140px;
+    width: 750px;
+    /* border: solid black 2px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .menu {
+    margin-top: 0px;
+    /* border: solid black 2px;  */
+  }
+  .section2 {
+    color: rgb(173, 173, 157);
+    margin-top: 200px;
+    background: linear-gradient(
+      90deg,
+      rgb(136, 56, 56),
+      rgba(81, 207, 69, 0.527)
+    );
+    height: 200px;
+    width: 320px;
+  }
+  .section3 {
+    color: rgb(173, 173, 157);
+    margin-top: 300px;
+    margin-right: 200px;
+    background: linear-gradient(
+      90deg,
+      rgb(136, 56, 56),
+      rgba(81, 207, 69, 0.527)
+    );
+    height: 200px;
+    width: 320px;
+  }
+
+  .footer1 {
+    /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+    color: rgb(173, 173, 157);
+
+    height: 200px;
+    width: 320px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .TextoDArriba {
+    font-size: xx-large;
+    margin-left: 200px;
+  }
+
+  header {
+    width: 730px;
+    height: 140px;
+    background-image: url(header2.jpg);
+  }
+
+  .Elemento3 {
+    margin-left: 100px;
+    height: 200px;
+  }
+
+  .textito {
+    font-size: 25px;
+  }
+
+  .cajaMedio1 {
+    width: 350px;
+    height: 100px;
+  }
+
+  .cajaMedio2 {
+    width: 700px;
+    height: 150px;
+  }
+
+  .cajaMedio3 {
+    width: 600px;
+    height: 200px;
+  }
+
+  .foto1 {
+    width: 50%;
+    height: 130px;
+  }
+
+  .foto2 {
+    width: 165px;
+    height: 120px;
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+
+  .foto3 {
+    width: 165px;
+    height: 125px;
+  }
+
+  .texto1 {
+    font-size: 30px;
+  }
+
+  .texto2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+  .texto3 {
+    font-size: 30px;
+    margin-left: 240px;
+    margin-top: 10px;
+  }
+  .section2 {
+    height: 400px;
+    width: 620px;
+  }
+  .section3 {
+    height: 400px;
+    width: 620px;
+  }
+
+  .footer1 {
+    height: 400px;
+    width: 620px;
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .TextoDArriba {
+    font-size: 50px;
+    margin-left: 400px;
+  }
+
+  body {
+    background: linear-gradient(
+      730deg,
+      rgb(136, 56, 56),
+      rgba(81, 207, 69, 0.527)
+    );
+  }
+
+  header {
+    width: 1800px;
+    height: 200px;
+    /* justify-content: center; */
+    background-image: url(header1.jpg);
+  }
+
+  .CajaImagenesA {
+    margin-top: 0px;
+  }
+
+  .Elemento3 {
+    margin-left: 400px;
+  }
+
+  .textito {
+    font-size: 40px;
+  }
+
+  .cajaMedio1 {
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+    margin-top: 100px;
+    /* border: black solid 2px; */
+  }
+  .cajaMedio2 {
+    width: 1100px;
+    height: 200px;
+    justify-content: space-around;
+  }
+
+  .cajaMedio3 {
+    justify-content: space-around;
+    width: 1100px;
+    height: 200px;
+  }
+
+  .foto1 {
+    height: auto;
+    width: 25%;
+    margin-left: 100px;
+  }
+
+  .foto2 {
+    height: auto;
+    width: 25%;
+    margin-left: 400px;
+  }
+
+  .foto3 {
+    height: auto;
+    width: 25%;
+  }
+
+  .texto1 {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+  .texto2 {
+    font-size: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+
+  .texto3 {
+    font-size: 40px;
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+
+  .bajarT2 {
+    height: 170px;
+  }
+
+  .menu {
+    margin-bottom: 0px;
+  }
+
+  .section2 {
+    height: 600px;
+    width: 900px;
+    font-size: 30px;
+  }
+  .section3 {
+    height: 600px;
+    width: 900px;
+    font-size: 30px;
+  }
+
+  .footer1 {
+    margin-top: 300px;
+    height: 600px;
+    width: 900px;
+    font-size: 30px;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
